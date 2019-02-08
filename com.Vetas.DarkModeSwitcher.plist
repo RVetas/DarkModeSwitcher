@@ -8,11 +8,8 @@
 	<string>/var/log/DarkModeSwitcher.log</string>
 	<key>Label</key>
 	<string>com.Vetas.DarkModeSwitcher</string>
-	<key>StartCalendarInterval</key>
-	<dict>
-		<key>Minute</key>
-		<integer>0</integer>
-	</dict>
+	<key>StartInterval</key>
+    	<integer>300</integer>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/Applications/DarkModeSwitcher</string>
