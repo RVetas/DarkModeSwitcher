@@ -6,6 +6,7 @@ This package provides you an opportunity to schedule Dark Mode switching on your
 ## How to run?
 
 Just print `./start` in your terminal.
+
     1. App will build and replace executable in `/Applications`
     2. *.plist file will be copied to `/Library/LaunchDaemons`
     3. Daemon started!
