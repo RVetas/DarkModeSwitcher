@@ -1,7 +1,7 @@
 # DarkModeSwitcher
 *version 0.2b* -- this is early beta version and parameters of the daemon will be changed
 
-This daemon will turn ON Dark Mode at 20:00 and turn in OFF at 10:00.
+This daemon will turn Dark Mode ON at 20:00 and turn it OFF at 10:00.
 
 ## How to run?
 
