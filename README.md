@@ -1,3 +1,4 @@
 # DarkModeSwitcher
+*version 0.1b* -- this is early beta version and parameters of the daemon will be changed
 
-A description of this package.
+This package provides you an opportunity to schedule Dark Mode switching on your Mac.
