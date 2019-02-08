@@ -15,4 +15,4 @@ Just print `./start` in your terminal.
 
 Print `./stop` in your terminal to delete this app from /Applications, disable daemon and delete daemon's plist.
 
-### Note: When copiyng to `/Library/LaunchDaemons` and loading daemon root access is needed
+#### Note: When copiyng to `/Library/LaunchDaemons` and loading daemon root access is needed
