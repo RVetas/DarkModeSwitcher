@@ -2,14 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>StartInterval</key>
-	<integer>3600</integer>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardOutPath</key>
 	<string>/var/log/DarkModeSwitcher.log</string>
 	<key>Label</key>
 	<string>com.Vetas.DarkModeSwitcher</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/Applications/DarkModeSwitcher</string>
