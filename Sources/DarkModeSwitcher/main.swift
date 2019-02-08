@@ -11,13 +11,14 @@ import Foundation
 let userCalendar = Calendar.current
 let currentDate = Date()
 let currentHour = userCalendar.component(.hour, from: currentDate)
+let currentMinute = userCalendar.componen(.minute, from: currentDate)
 
 if currentHour >= 20 || currentHour =< 10 {
     let command = "tell application \"System Events\" to tell appearance preferences to set dark mode to true"
     let _ = NSAppleScript(source: command)?.executeAndReturnError(nil).stringValue
-    print("Ok, its >20 or < 10")
+    print("currentHour: \(currentHour) | currentMinute: \(currentMinute) | Trying to set dark mode to true")
 } else {
     let command = "tell application \"System Events\" to tell appearance preferences to set dark mode to false"
     let _ = NSAppleScript(source: command)?.executeAndReturnError(nil).stringValue
-    print("Ok, its other time")
+    print("currentHour: \(currentHour) | currentMinute: \(currentMinute) | Trying to set dark mode to false")
 }

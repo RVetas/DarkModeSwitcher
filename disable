@@ -1,0 +1,3 @@
+rm -rf /Applications/DarkModeSwitcher &&
+sudo launchctl unload /Library/LaunchDaemons/com.Vetas.DarkModeSwitcher.plist &&
+sudo rm -rf /Library/LaunchDaemons/com.Vetas.DarkModeSwitcher.plist

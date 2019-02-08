@@ -5,6 +5,13 @@ This package provides you an opportunity to schedule Dark Mode switching on your
 
 ## How to run?
 
-Just print `./build` in your terminal 
+Just print `./start` in your terminal.
+    1. App will build and replace executable in `/Applications`
+    2. *.plist file will be copied to `/Library/LaunchDaemons`
+    3. Daemon started!
+
+## Hot to disable it?
+
+Print `./stop` in your terminal to delete this app from /Applications, disable daemon and delete daemon's plist.
 
 ### Note: When copiyng to `/Library/LaunchDaemons` and loading daemon root access is needed
