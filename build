@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+swift build -c release &&
+mv ./.build/release/DarkModeSwitcher /Applications &&
+echo "Moving daemon plist to /Library/LaunchDaemons/ ...need sudo access" &&
+sudo cp com.Vetas.DarkModeSwitcher.plist /Library/LaunchDaemons &&
+echo "Starting a daemon" &&
+sudo launchctl load -w /Library/LaunchDaemons/com.Vetas.DarkModeSwitcher.plist
+
