@@ -13,7 +13,7 @@ let currentDate = Date()
 let currentHour = userCalendar.component(.hour, from: currentDate)
 let currentMinute = userCalendar.component(.minute, from: currentDate)
 
-if currentHour >= 20 || currentHour <= 10 {
+if currentHour > 20 || currentHour < 10 {
     let command = "tell application \"System Events\" to tell appearance preferences to set dark mode to true"
     let _ = NSAppleScript(source: command)?.executeAndReturnError(nil).stringValue
     print("currentHour: \(currentHour) | currentMinute: \(currentMinute) | Trying to set dark mode to true")

@@ -13,6 +13,6 @@ Just print `./start` in your terminal.
 
 ## Hot to disable it?
 
-Print `./stop` in your terminal to delete this app from /Applications, disable daemon and delete daemon's plist.
+Print `./disable` in your terminal to delete this app from /Applications, disable daemon and delete daemon's plist.
 
 #### Note: When copiyng to `/Library/LaunchDaemons` and loading daemon root access is needed
