@@ -23,3 +23,25 @@ To configure it you can use configuration file at `/usr/local/etc/DarkModeSwitch
 ## Where are my logs?
 
 `/usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.log` file is at your service!
+
+
+## Как запустить?
+
+Просто пропишите `./start` в своем терминале
+
+    1. Приложение будет скомпилировано, а исполняемый файл будет перемещен в `/Applications`
+    2. *.plist файл будет скопирован в `$HOME/Library/LaunchAgents`
+    3. Будет создана директория `/usr/local/etc/DarkModeSwitcher`
+    4. Демон будет запущен
+
+## Как отключить?
+
+Пропишите `./disable` в своем терминале  и скрипт удалит исполняемый файл, выключит демона, удалит *.plist файл, логи и файл конфигурации.
+
+## Как настроить?
+
+Для конфигурации используется файл  `/usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.conf`
+
+## Где логи?
+
+`/usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.log`  -- вот тут
