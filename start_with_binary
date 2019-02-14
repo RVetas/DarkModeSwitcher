@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+mv ./DarkModeSwitcher /Applications &&
+echo "Moving daemon plist to $HOME/Library/LaunchAgents/ ...need sudo access" &&
+cp com.Vetas.DarkModeSwitcher.plist $HOME/Library/LaunchAgents &&
+mkdir /usr/local/etc/DarkModeSwitcher &&
+echo "Starting a daemon" &&
+launchctl load -w $HOME/Library/LaunchAgents/com.Vetas.DarkModeSwitcher.plist
+
