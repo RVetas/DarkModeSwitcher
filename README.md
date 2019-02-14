@@ -3,9 +3,13 @@
 
 This daemon will schedule turning Dark Mode in MacOS on/off 
 
+# How to run compiled version?
+
+You have to download compiled version in *releases* tab and use `start_with_binary` script instead of `start` script. There is no more difference.
+
 ## How to run?
 
-Just print `./start` in your terminal.
+Just run `./start` in your terminal.
 
     1. App will build and replace executable in `/Applications`
     2. *.plist file will be copied to `$HOME/Library/LaunchAgents`
@@ -14,15 +18,19 @@ Just print `./start` in your terminal.
 
 ## Hot to disable it?
 
-Print `./disable` in your terminal to delete this app from /Applications, disable daemon and delete daemon's plist, daemons logs and configuration files.
+Run `./disable` in your terminal to delete this app from /Applications, disable daemon and delete daemon's plist, daemons logs and configuration files.
 
 ## How to configure it?
 
 To configure it you can use configuration file at `/usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.conf`
 
-## Where are my logs?
+# Where are my logs?
 
 `/usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.log` file is at your service!
+
+# Как запустить скомпилированную версию?
+
+Необходимо скачать скомпилированную версию во вкладке `releases` и использовать скрипт `start_with_binary` вместо `start`. Вот и вся разница.
 
 
 ## Как запустить?
