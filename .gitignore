@@ -2,3 +2,5 @@
 /.build
 /Packages
 /*.xcodeproj
+/binary_start
+binary_start.zip

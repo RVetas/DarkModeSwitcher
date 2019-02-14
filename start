@@ -2,7 +2,7 @@
 
 swift build -Xswiftc "-target" \
     -Xswiftc "x86_64-apple-macosx10.12"  -c release &&
-mv ./.build/release/DarkModeSwitcher /Applications &&
+cp ./.build/release/DarkModeSwitcher /Applications &&
 echo "Moving daemon plist to $HOME/Library/LaunchAgents/ ...need sudo access" &&
 cp com.Vetas.DarkModeSwitcher.plist $HOME/Library/LaunchAgents &&
 mkdir /usr/local/etc/DarkModeSwitcher &&
