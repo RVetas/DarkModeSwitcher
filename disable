@@ -1,5 +1,4 @@
-rm -rf /Applications/DarkModeSwitcher &&
+rm /Applications/DarkModeSwitcher &&
 launchctl unload $HOME/Library/LaunchAgents/com.Vetas.DarkModeSwitcher.plist &&
-rm -rf $HOME/Library/LaunchAgents/com.Vetas.DarkModeSwitcher.plist &&
-rm /usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.log &&
-rm /usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.conf
+rm $HOME/Library/LaunchAgents/com.Vetas.DarkModeSwitcher.plist &&
+rm -rf /usr/local/etc/DarkModeSwitcher/

@@ -53,3 +53,4 @@ To configure it you can use configuration file at `/usr/local/etc/DarkModeSwitch
 ## Где логи?
 
 `/usr/local/etc/DarkModeSwitcher/DarkModeSwitcher.log`  -- вот тут
+
